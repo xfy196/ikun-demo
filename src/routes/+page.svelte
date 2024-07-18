@@ -3,6 +3,8 @@
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 	import {KButton} from "@ikun-ui/core"
+	import { KIcon } from '@ikun-ui/icon';
+
 </script>
 
 <svelte:head>
@@ -21,6 +23,8 @@
 
 		to your new<br />SvelteKit app
 		<KButton>KButton</KButton>
+		<KIcon icon="i-carbon-settings" color="text-ikun-main" cls="mx-2"></KIcon>
+
 
 	</h1>
 
